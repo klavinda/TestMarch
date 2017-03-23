@@ -1,0 +1,33 @@
+mixin b_category()
+	+b.category
+		+e.text Виберіть категорію
+		+e.list
+			+e.item
+				+b_content('icon_03.jpg', 'Автотранспорт', '/url.html')
+			+e.item
+				+b_content('icon_06.jpg', 'Будівництво, архітектура, землекористування', '/url.html')
+			+e.item
+				+b_content('icon_09.jpg', 'Громадянство', '/url.html')
+			+e.item
+				+b_content('icon_12.jpg', 'Захист прав дитини', '/url.html')
+			+e.item
+				+b_content('icon_19.jpg', 'Реєстрація місця проживання/перебування', '/url.html')
+			+e.item
+				+b_content('icon_22.jpg', 'Підприємницька діяльність', '/url.html')
+			+e.item
+				+b_content('icon_25.jpg', 'Санітарне та епідемічне благополуччя, ветеринарна медицина', '/url.html')
+			+e.item
+				+b_content('icon_27.jpg', 'Комунальне господарство', '/url.html')
+
+		
+
+
+
+//- +b.header
+//- 	+e.search
+//- 		+b-search()
+//- 	+e.menu
+//- 		+b_menu()
+//- 	+e("a").logo
+//- 		+e("img").logo-img
+//- 	+e("a").button.btn

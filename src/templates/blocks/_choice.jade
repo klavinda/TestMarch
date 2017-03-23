@@ -1,0 +1,20 @@
+mixin b_choice()
+	+b.enroll
+		+e.menhaircut
+			+e.heading Men's Haircut
+			+e.text A haircut by a specialist men's stylist at Buzzcuts offers far more than a regular Barbershop. You are safe in the hands of fully qualified hair stylists trained in men's hairdressing and not just basic barbering techniques.
+			+e.price 150 UAH
+			+e("a").btn.btn(href="/") Enroll
+		+e.picture
+			+e("img").picture-hair(src="../img/images/photo1_02.jpg" alt="")
+
+
+
+//- +b.header
+//- 	+e.search
+//- 		+b-search()
+//- 	+e.menu
+//- 		+b_menu()
+//- 	+e("a").logo
+//- 		+e("img").logo-img
+//- 	+e("a").button.btn

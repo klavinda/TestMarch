@@ -1,0 +1,6 @@
+mixin b_content(img='Avto.svg', title='Title', url='/')
+	+b.content
+		+e("a").icon(href=url)
+				+e("img").icon-img(src="/img/images/#{img}" alt=title)
+		+e.text= title
+
